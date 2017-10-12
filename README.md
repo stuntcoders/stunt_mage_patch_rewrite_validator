@@ -1,0 +1,1 @@
+# Magento Patch Rewrite Validator
