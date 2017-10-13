@@ -40,6 +40,6 @@ while read -r line ; do
 done < <(grep template <<< "$modified_files")
 
 echo -e "${DEFAULT}Additional files: ";
-additional=$(grep -v core <<< "$modified_files");
-additional=$(grep -v template <<< "$additional");
-echo -e "${RED}$additional";
+skipped=$(grep -v core <<< "$modified_files");
+skipped=$(grep -v template <<< "$skipped");
+echo -e "${GREEN}$skipped";
