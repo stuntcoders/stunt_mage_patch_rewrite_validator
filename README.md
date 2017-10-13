@@ -4,8 +4,7 @@ Simple shell script to detect any overwritten patched files in local/community c
 
 ## Install
 ```sh
-curl https://raw.githubusercontent.com/stuntcoders/stunt_mage_patch_rewrite_validator/master/mage-patch-check.sh -O
-mv mage-patch-check.sh /usr/local/bin/mage-patch-check
+curl https://raw.githubusercontent.com/stuntcoders/stunt_mage_patch_rewrite_validator/master/mage-patch-check.sh > /usr/local/bin/mage-patch-check
 chmod +x /usr/local/bin/mage-patch-check
 ```
 
